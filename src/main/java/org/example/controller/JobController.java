@@ -114,7 +114,7 @@ public class JobController {
             throw new RuntimeException(e);
         }
     }
-
+//
     @POST
     public Response insertJobFromForm(@BeanParam Job job){
 

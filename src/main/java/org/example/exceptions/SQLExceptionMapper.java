@@ -15,7 +15,7 @@ public class SQLExceptionMapper implements ExceptionMapper<SQLException> {
         err.setErrorContent(exception.getMessage());
         err.setErrorCode(500);
         err.setDocumentationUrl("https://google.com");
-
+//
         return Response
                 .status(Response.Status.INTERNAL_SERVER_ERROR)
                 .entity(err)

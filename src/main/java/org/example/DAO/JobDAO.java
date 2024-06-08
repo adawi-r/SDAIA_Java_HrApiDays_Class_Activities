@@ -12,7 +12,7 @@ public class JobDAO {
     private static final String SELECT_ALL_JOBS_with_min_salary = "select * from jobs where min_salary = ?";
     private static final String SELECT_ALL_JOBS_min_PAGINATION = "select * from jobs min_salary = ? order by job_id limit ? offset ?";
     private static final String SELECT_ALL_JOBS_PAGINATION = "select * from jobs order by job_id limit ? offset ?";
-
+//
     private static final String SELECT_ONE_JOB = "select * from jobs where job_id = ?";
     private static final String INSERT_JOB = "insert into jobs values (?, ?, ?, ?)";
     private static final String UPDATE_JOB = "update jobs set job_id = ?, job_title = ? where max_salary = ?";

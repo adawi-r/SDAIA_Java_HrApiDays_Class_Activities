@@ -14,7 +14,7 @@ public class DataNotFoundExceptionMapper implements ExceptionMapper<DataNotFound
         err.setErrorContent(exception.getMessage());
         err.setErrorCode(404);
         err.setDocumentationUrl("https://google.com");
-
+//
         return Response
                 .status(Response.Status.NOT_FOUND)
                 .entity(err)
