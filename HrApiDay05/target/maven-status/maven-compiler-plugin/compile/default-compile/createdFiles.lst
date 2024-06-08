@@ -1,0 +1,4 @@
+org\example\DAO\JobDAO.class
+org\example\MyResource.class
+org\example\controller\JobController.class
+org\example\models\Job.class
