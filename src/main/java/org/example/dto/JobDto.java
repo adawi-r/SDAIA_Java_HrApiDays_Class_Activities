@@ -72,7 +72,7 @@ public class JobDto {
         link.setRel(rel);
         links.add(link);
     }
-//
+
     public JobDto(ResultSet rs) throws SQLException {
         job_id = rs.getInt("job_id");
         job_title = rs.getString("job_title");

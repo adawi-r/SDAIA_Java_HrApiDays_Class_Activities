@@ -13,7 +13,7 @@ public class Job {
     @FormParam("max_salary") private double max_salary;
 
     public Job() {}
-//
+
     public Job(int job_id, String job_title, double min_salary, double max_salary) {
         this.job_id = job_id;
         this.job_title = job_title;

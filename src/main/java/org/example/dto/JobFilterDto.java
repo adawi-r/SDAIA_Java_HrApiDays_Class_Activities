@@ -10,7 +10,7 @@ public class JobFilterDto {
     public Double getMin_salary() {
         return min_salary;
     }
-//
+
     public void setMin_salary(Double min_salary) {
         this.min_salary = min_salary;
     }
